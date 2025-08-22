@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Heartfelt Apology</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            background: linear-gradient(135deg, #fdf2f8 0%, #e0e7ff 100%);
+            min-height: 100vh;
+        }
+        
+        .handwriting {
+            font-family: 'Dancing Script', cursive;
+        }
+        
+        .envelope {
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            border: 2px solid #f9a8d4;
+        }
+        
+        .heart {
+            color: #f472b6;
+            transition: transform 0.3s ease;
+        }
+        
+        .heart:hover {
+            transform: scale(1.2);
+        }
+        
+        .gift-card {
+            transition: all 0.3s ease;
+            transform-style: preserve-3d;
+        }
+        
+        .gift-card:hover {
+            transform: translateY(-5px) rotate(2deg);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        .ribbon {
+            background: linear-gradient(135deg, #f472b6 0%, #fb7185 100%);
+            position: relative;
+        }
+        
+        .ribbon::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #fb7185;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6">
+    <div class="max-w-4xl w-full">
+        <!-- Header with floating hearts -->
+        <div class="text-center mb-8">
+            <div class="floating inline-block text-6xl mb-4">💝😘</div>
+            <h1 class="text-4xl md:text-5xl font-bold text-pink-600 handwriting mb-4">
+                My Love 
+            </h1>
+            <p class="text-gray-600">This is only for you baby and I love you Baby</p>
+        </div>
+
+        <!-- Letter Section -->
+        <div class="envelope p-8 md:p-12 mb-12 relative">
+            <div class="absolute top-4 right-4 text-3xl text-pink-300">💌</div>
+            
+            <div class="text-center mb-8">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4 handwriting">
+                    My Sweet Love,
+                </h2>
+                <div class="w-24 h-1 bg-pink-300 mx-auto mb-6"></div>
+            </div>
+
+            <div class="space-y-6 text-gray-700 leading-relaxed text-lg">
+                <p>
+                    I'm writing this only for you My Sweet Baby 😘😘😘😘. 
+                </p>
+                
+                <p>
+                    You mean everything to me, and I love soo much Baby and I can't think anything without you.
+                    I know I have made mistakes, and I am truly sorry for any pain I have caused you.
+                </p>
+                
+                <p>
+                    Your happiness is my priority, and I'm committed to making things right. 
+                    Please know that I love you more than words can express, and I value our relationship more than anything.
+                </p>
+                
+                <p class="text-center italic text-pink-600 font-semibold">
+                    "I'm sorry from the bottom of my heart. Please forgive me."
+                </p>
+                
+                <p class="text-right mt-8 handwriting text-2xl text-pink-800">
+                    Forever yours,<br>
+                    <span class="text-pink-600">Baby 🥰🥰🥰🥰</span>
+                </p>
+            </div>
+        </div>
+         <!-- Gift Cards Section -->
+        <div class="text-center mb-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-2 handwriting">
+                Special Gift Cards Just for My Love.
+            </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <!-- Gift Card 1 -->
+            <div class="gift-card bg-white rounded-lg p-6 border-2 border-pink-200 relative overflow-hidden">
+                <div class="ribbon absolute top-0 right-0 px-4 py-1 text-white text-sm font-bold">
+                    Romantic
+                </div>
+                <img 
+                    src="data:image/jpeg;base64,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" 
+                    alt="Elegant romantic dinner setting with candlelight, fine china, and wine glasses in a cozy restaurant atmosphere"
+                    class="gift-card-image"
+                    onerror="this.style.display='none'"
+                />
+                <div class="text-center mb-4">
+                    <h3 class="text-xl font-bold text-gray-800">Romantic ❤️</h3>
+                </div>
+                <p class="text-gray-600 text-center mb-4">
+                    I will be always romantic with you,And I will always love you.
+                </p>
+            </div>
+
+            <!-- Gift Card 2 -->
+            <div class="gift-card bg-white rounded-lg p-6 border-2 border-blue-200 relative overflow-hidden">
+                <div class="ribbon absolute top-0 right-0 px-4 py-1 text-blue-600 text-sm font-bold bg-blue-100">
+                    Sleep
+                </div>
+                <img 
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW6UsNIYGXxJOT6RERyP4b37d8AjoUT1z5Dg&s" 
+                    alt="Luxurious spa treatment room with massage table, candles, and rose petals creating a serene relaxation atmosphere"
+                    class="gift-card-image"
+                    onerror="this.style.display='none'"
+                />
+                <div class="text-center mb-4">
+                    <h3 class="text-xl font-bold text-gray-800">You & Me</h3>
+                </div>
+                <p class="text-gray-600 text-center mb-4">
+                    A full day of pampering - massage, facial, and complete relaxation. I will take care of everything.
+                </p>
+            </div>
+
+            <!-- Gift Card 3 -->
+            <div class="gift-card bg-white rounded-lg p-6 border-2 border-purple-200 relative overflow-hidden">
+                <div class="ribbon absolute top-0 right-0 px-4 py-1 text-purple-600 text-sm font-bold bg-purple-100">
+                    FUN
+                </div>
+                <img 
+                    src="https://media.istockphoto.com/id/1422030451/photo/romantic-movie-night-stock.jpg?s=612x612&w=0&k=20&c=8RiKtwSZe6WXuV7LRmYYUW5lHRboVn1etkObuBgFuhE=" 
+                    alt="Cozy home movie night setup with popcorn, blankets, and romantic comedy playing on a large screen TV"
+                    class="gift-card-image"
+                    onerror="this.style.display='none'"
+                />
+                <div class="text-center mb-4">
+                    <h3 class="text-xl font-bold text-gray-800">Movie Night Selection</h3>
+                </div>
+                <p class="text-gray-600 text-center mb-4">
+                    Your choice of movies, snacks, and cuddles. No complaints about your movie picks!
+                </p>
+            </div>
+
+            <!-- Gift Card 4 -->
+            <div class="gift-card bg-white rounded-lg p-6 border-2 border-green-200 relative overflow-hidden">
+                <div class="ribbon absolute top-0 right-0 px-4 py-1 text-green-600 text-sm font-bold bg-green-100">
+                    SWEET
+                </div>
+                <img 
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSCbMxCRKubZzeoSZWiEhc2in__gFYpFD9qg&s" 
+                    alt="Beautiful breakfast in bed tray with fresh croissants, coffee, flowers, and morning sunlight streaming through window"
+                    class="gift-card-image"
+                    onerror="this.style.display='none'"
+                />
+                <div class="text-center mb-4">
+                    <h3 class="text-xl font-bold text-gray-800">Breakfast in Bed</h3>
+                </div>
+                <p class="text-gray-600 text-center mb-4">
+                        Whenever I come to you we will do breakfast on our bed. And I will Serve you with fresh coffee and kisses.
+            </div>
+
+            <!-- Gift Card 5 -->
+            <div class="gift-card bg-white rounded-lg p-6 border-2 border-light bg-blue-100 relative overflow-hidden">
+                <div class="ribbon absolute top-0 right-0 px-4 py-1 text-yellow-600 text-sm font-bold bg-violet-700">
+                    WALK
+                </div>
+                <img 
+                    src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/489c4a5e-e2d0-4819-a9a8-6c27bb9ee6db.png" 
+                    alt="Romantic mountain getaway cabin with hot tub, scenic views, and cozy interior perfect for weekend escape"
+                    class="gift-card-image"
+                    onerror="this.style.display='none'"
+                />
+                <div class="text-center mb-4">
+                    <h3 class="text-xl font-bold text-gray-800">ROMANTIC WALK</h3>
+                </div>
+                <p class="text-gray-600 text-center mb-4">
+                    A romantic walk on the street with holdings your hand at evening.
+                </p>
+            </div>
+
+            <!-- Gift Card 6 -->
+            <div class="gift-card bg-white rounded-lg p-6 border-2 border-red-200 relative overflow-hidden">
+                <div class="ribbon absolute top-0 right-0 px-4 py-1 text-red-600 text-sm font-bold bg-red-100">
+                   Lifespan
+                </div>
+                <img 
+                    src="data:image/jpeg;base64,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" 
+                    alt="Romantic couple embracing in warm hug with sunset backdrop, showing genuine affection and emotional connection"
+                    class="gift-card-image"
+                    onerror="this.style.display='none'"
+                />
+                <div class="text-center mb-4">
+                    <h3 class="text-xl font-bold text-gray-800">FOREVER</h3>
+                </div>
+                <p class="text-gray-600 text-center mb-4">
+                    I want to live you upto this.And entitles you to unlimited hugs, kisses, and cuddles for Forever.❤️❤️❤️❤️😘😘😘😘😘
+                </p>
+            </div>
+        </div>
+
+        <!-- Message Input -->
+        <div class="envelope p-8 text-center">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4 handwriting">Add Your Personal Touch</h3>
+            <textarea 
+                id="personalMessage" 
+                placeholder="Add your own personal message here..."
+                class="w-full p-4 border-2 border-pink-200 rounded-lg focus:border-pink-400 focus:outline-none resize-none h-32 mb-4"
+            ></textarea>
+            <button onclick="saveMessage()" class="bg-pink-500 hover:bg-pink-600 text-white py-3 px-8 rounded-lg transition duration-200">
+                Save Your Message
+            </button>
+        </div>
+        <!-- Footer -->
+        <div class="text-center mt-12 mb-8">
+            <p class="text-gray-500">Made with ❤️ for the most special person</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <span class="text-2xl text-pink-400 heart">💖</span>
+                <span class="text-2xl text-pink-400 heart">💕</span>
+                <span class="text-2xl text-pink-400 heart">💓</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+            // Add visual feedback
+            const button = event.target;
+            button.classList.add('bg-green-500');
+            button.textContent = 'Redeemed!';
+            button.disabled = true;
+            
+            setTimeout(() => {
+                button.classList.remove('bg-green-500');
+                button.classList.add('bg-gray-400');
+            }, 1500);
+        
+        function saveMessage() {
+            const message = document.getElementById('personalMessage').value.trim();
+            if (message) {
+                alert('Your personal message has been saved! 💖');
+                localStorage.setItem('apologyMessage', message);
+            } else {
+                alert('Please write a message before saving.');
+            }
+        }
+        
+        // Load saved message if exists
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedMessage = localStorage.getItem('apologyMessage');
+            if (savedMessage) {
+                document.getElementById('personalMessage').value = savedMessage;
+            }
+        });
+    </script>
+</body>
+</html>
